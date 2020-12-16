@@ -1,0 +1,62 @@
+----operators------
+
+package math_Operators;
+
+public class operators {
+
+	public static void main(String[] args) {
+		
+		double a = 10;
+		double b = 18;
+		double c = b / a;
+		System.out.println(c);
+		System.out.println(a+b);
+		
+		
+		c = c + 1; 
+		System.out.println(c);
+		// c++ = c + 1
+		// c-- = c - 1 
+		
+		//c = c+10 // c+=10 
+		//c = c * 5 // c*=5		
+				
+
+	}
+
+}
+
+-----------Logical operators--------
+
+package math_Operators;
+
+public class Logical_Operators {
+
+	public static void main(String[] args) {
+		
+		//Logical operators
+		
+		
+			boolean flag;
+			
+			flag = 10 > 5;
+			System.out.println(flag);
+			flag = 20 < 50;
+			System.out.println(flag);
+
+			long age = 48;
+			flag = age >= 48; 
+			System.out.println(flag);
+			
+			
+			// conditions 
+			
+			//if (age > 40) {
+				
+		//	}
+		//}
+
+
+	}
+
+}
