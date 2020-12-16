@@ -1,0 +1,93 @@
+public class MyFirstJava {
+
+	public static void main(String[] args) {
+		System.out.println("hello automation");
+		
+	}
+
+}
+
+public class Variables {
+
+	public static void main(String[] args) {
+		int age;
+		age = 33;
+		System.out.println(age);
+	}
+
+}
+
+------------------Home Work-----------------
+
+public class VariablesAnswers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String MyAge1 = "I am ";
+		int    MyAge2 = 32;
+		String MyAge3 = " years old. ";
+		String MyAge  = MyAge1 + MyAge2 + MyAge3;
+		
+		
+		String MySalary1 = "My salary is ";
+		long   MySalary2 = 99999;
+		String MySalary3 = " nis. ";
+		String MySalary  = MySalary1 + MySalary2 + MySalary3;
+		
+		
+		String MyAddress1 = "I live in ";
+		String MyAddress2 = "Holon. ";
+		String MyAddress  = MyAddress1 + MyAddress2;
+		
+		
+		String MyName1 = "My name is ";
+		String MyName2 = "Eran Beeri. ";
+		String MyName  = MyName1 + MyName2;
+	
+		
+		String MyHeight1 = "My height is ";
+		double MyHeight2 = 172.5;
+		String MyHeight3 = " cm. ";
+		String MyHeight  = MyHeight1 + MyHeight2 + MyHeight3;
+		
+				
+		System.out.println((MyName) + (MyAge) + (MyHeight) + (MyAddress) + (MySalary));
+		
+		//System.out.println(MyAge);
+		//System.out.println(MyHeight);
+		//System.out.println(MyAddress);
+		//System.out.println(MySalary);
+		
+	}
+
+}
+
+------------------Home Work 2-----------------
+
+public class VariablesAnswers2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		{
+		
+			int Age = 23; 
+		Age = Age + 5;
+		
+		System.out.println(Age);
+		
+		}
+	
+		{
+		
+		int Age = 23;
+		Age = Age * 3;
+		
+		System.out.println(Age);
+		
+		}
+	}
+
+}
+
