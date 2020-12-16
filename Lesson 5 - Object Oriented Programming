@@ -1,0 +1,141 @@
+// create 1 package with 2 classes 
+
+--- class number 1
+
+package classes;
+
+public class Student {
+	private String name;
+	private String email;
+	private int age;
+	private boolean active;
+	private double avgGrade;
+	
+	
+
+	
+	public Student(String name, String email, int age, boolean active, double avgGrade) {
+		
+		this.name = name;
+		this.email = email;
+		this.age = age;
+		this.active = active;
+		this.avgGrade = avgGrade;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public boolean isActive() {
+		return active;
+	}
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+	public double getAvgGrade() {
+		return avgGrade;
+	}
+	public void setAvgGrade(double avgGrade) {
+		this.avgGrade = avgGrade;
+	}
+
+	
+	public int birthYear() { 
+		int year = 2020 - this.age;
+		return year;
+	}
+	
+	public String toString() {
+		return "Student [name=" + name + ", email=" + email + ", age=" + age + ", active=" + active + ", avgGrade="
+				+ avgGrade + "]";
+	}
+	
+	
+		
+	}
+	
+
+//	public void setAge(int age1) {
+//		if (age1 < 0 || age1 > 120) {
+//			System.out.println("Invalid age");
+//		} else {
+//			age = age1;
+//		}
+
+//	}
+	
+//	public int getAge() {
+//		return age;
+//	}
+
+
+
+--- class number 2
+
+package classes;
+
+public class MyCollege {
+
+	public static void main(String[] args) {
+		Student eran = new Student("Eran", "eran@gmail.com", 32, true, 96);
+//		eran.setName("Eran");
+//		eran.setEmail("eran@gmail.com");
+//		eran.setAge(32);
+//		eran.setActive(true);
+//		eran.setAvgGrade(93);
+		
+		System.out.println(eran.getName());
+	
+		Student ilona = new Student("Ilona", "ilona@gmail.com", 31, true, 95);
+		
+		System.out.println(eran.toString());
+		
+		System.out.println(eran.getName().length());
+		
+		System.out.println(eran.birthYear());
+		
+		String message = "hello hi eran";
+		
+		if (message.contains("eran")) {
+			System.out.println("true");
+		}
+	
+	
+	
+	}
+
+}
+		
+//		eran.name = "Eran";
+//		eran.email = "eran@gmail.com";
+		//eran.age = 32; 
+//		eran.setAge(32);
+//		eran.active = true;
+//		eran.avgGrade = 90;
+		
+		//System.out.println(eran.age);
+		//eran.age = 33;
+//		eran.setAge(33);
+//		System.out.println(eran.getAge());
+		
+		
+//		Student ilona = new Student();
+//		ilona.name = "Ilona";
+		//ilona.age = 30;
+//		ilona.setAge(30);
+//		ilona.avgGrade = 93;
+//		ilona.email = "ilona@gmail.com";
