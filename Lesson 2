@@ -60,3 +60,179 @@ public class Logical_Operators {
 	}
 
 }
+
+--------------------------------------------------------Home Work-------------------------------
+
+---part1--
+
+package math_Operators;
+
+public class Home_work_lesson_2 {
+
+	public static void main(String[] args) {
+		
+		int age;
+		
+		age = 72; 
+		
+			if (age < 18) {
+			
+			System.out.println("He is a minor.");
+		}
+		
+			if ( age > 66) {
+			
+			System.out.println("He is a pensioner.");
+		}
+		
+			if  (age == 18) {
+				
+			System.out.println("He is 18 years old.");
+			
+				
+			}
+			
+			
+			}
+	}
+
+
+
+---part2--
+
+package math_Operators;
+
+public class Home_work_lesson_2_part_2 {
+
+	public static void main(String[] args) {
+
+		
+	int num;
+	
+	num = (-6);
+	
+	int remainder;
+	
+	remainder = num % 2;
+	
+		if (remainder == 0) {
+			
+			System.out.println("Number is even.");
+		}
+		
+		else {
+			
+			System.out.println("Number is odd.");
+			
+		}
+		
+	}
+
+}
+
+
+---part3--
+
+package math_Operators;
+
+public class Home_work_lesson_2_part_3 {
+
+	public static void main(String[] args) {
+
+		
+		double a = (-5.5);
+		
+		double b = (-5.51);
+		
+			if (a > b) {
+			
+			System.out.println("a is bigger than b.");
+			
+			}
+			
+			else if (b > a) {
+			
+			System.out.println("b is bigger than a.");
+			
+			}
+		
+			else {
+			
+			System.out.println("Both numbers are even.");
+			
+			}
+		
+		
+		}
+		
+		
+	}
+	
+	
+---part4--	
+
+package math_Operators;
+
+import java.util.Scanner;
+
+public class Home_work_lesson_2_part_4 {
+
+	public static void main(String[] args) {
+		
+		Scanner userdata = new Scanner(System.in);    // הגדרת אובייקט קלט ממשתמש
+		
+		
+		
+		System.out.println("Please insert your age: "); // הודעה למשתמש שמסבירה מה הוא צריך לעשות 
+		
+		
+		
+		double age = userdata.nextDouble();			// משתנה גיל, מקבל את הערך של הקלדת המשתמש, והוא חייב להיות דאבל
+		
+		
+		
+		System.out.println("Your age is " + age);
+		
+		
+			
+		
+	}
+
+}
+
+
+---part5--
+
+package math_Operators;
+
+import java.util.Scanner;
+
+public class Home_work_lesson_2_part_5 {
+
+	public static void main(String[] args) {
+	
+	
+		Scanner userdata = new Scanner(System.in);
+		
+		
+		System.out.println("Please insert a number:");
+		
+		
+		double number = userdata.nextDouble();
+		
+		
+		if (number % 2 == 0) {
+			
+			System.out.println("Your number is even!");
+					
+		}
+		
+		else {
+			
+			System.out.println("Your number is odd!");
+		}
+		
+
+	}
+
+}
